@@ -1,0 +1,19 @@
+Setting Up & Running the AI Chatbot
+Prerequisites
+Before running the chatbot, ensure you have the following installed:
+•	Python (>= 3.8)
+•	Required Python Libraries: 
+•	pip install speechrecognition pyttsx3 fuzzywuzzy transformers torch
+•	A working microphone for speech input.
+Running the Chatbot
+1.	Initialize the Virtual Environment (Optional but Recommended)
+2.	python -m venv chatbot_env
+3.	source chatbot_env/bin/activate  # On macOS/Linux
+4.	chatbot_env\Scripts\activate    # On Windows
+5.	Run the Script
+6.	python chatbot.py
+7.	Interacting with the Assistant
+o	Speak into the microphone when prompted.
+o	The chatbot will attempt to match predefined responses first.
+o	If no match is found, it will generate an AI response.
+o	Say "exit" to end the conversation.
